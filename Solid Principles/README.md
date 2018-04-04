@@ -2,11 +2,11 @@
 the single responsibility principle dictates that a class should have only one reason to change.  
 
 # Open-Closed Principle
-Seperate extensible behavior behind an interface, and flip the dependencies.    
+Separate extensible behavior behind an interface, and flip the dependencies.    
 Polymorphism: ability to have different behavior while still sharing a common interface.  
 
 # Liskov Substitution Principle
-Derived classes must be substituable for their base classes.  
+Derived classes must be substitutable for their base classes.  
 Any implementation of an abstraction (interface) should be substitutable in any place that the abstraction is accepted.  
 1. Signature must match.
 2. Preconditions can't be greater.
