@@ -4,7 +4,7 @@ require 'bootstrap.php';
 
 class CustomerIsGoldTest extends \PHPUnit\Framework\TestCase 
 {
-    
+    /** @test */
     function test_a_customer_is_gold_if_they_have_the_respective_type()
     {
         $spec = new CustomerIsGold;
