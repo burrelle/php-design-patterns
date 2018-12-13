@@ -13,14 +13,15 @@ class DBConnection implements ConnectionInterface
     }
 }
 
-class PasswordReminder 
+class PasswordReminder
 {
     /**
      * @var MySQLConnection
      */
     private $dbConnection;
 
-    public function __construct(ConnectionInterface $dbConnection) {
+    public function __construct(ConnectionInterface $dbConnection)
+    {
         $this->$dbConnection = $dbConnection;
     }
 }

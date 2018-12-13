@@ -1,6 +1,8 @@
-<?php namespace App;
+<?php
 
-abstract class Sub 
+namespace App;
+
+abstract class Sub
 {
     public function make()
     {
@@ -27,7 +29,7 @@ abstract class Sub
     {
         var_dump('adding the sauces');
         return $this;
-    }    
+    }
 
-    public abstract function addPrimaryToppings();
+    abstract public function addPrimaryToppings();
 }

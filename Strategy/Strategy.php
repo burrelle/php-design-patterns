@@ -31,7 +31,7 @@ class LogToXWebService implements Logger
     }
 }
 
-class App 
+class App
 {
     public function log($data, Logger $logger)
     {
@@ -40,4 +40,4 @@ class App
 }
 
 $app = new App;
-$app->log('Data to be logged',new LogToDatabase);
+$app->log('Data to be logged', new LogToDatabase);

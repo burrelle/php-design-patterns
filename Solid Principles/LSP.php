@@ -1,10 +1,10 @@
 <?php
 
-interface LessonRepositoryInterface 
+interface LessonRepositoryInterface
 {
     /**
      * Fetch all records
-     * PHP does not have a mechanism to ensure 
+     * PHP does not have a mechanism to ensure
      * the return types are all the same so we
      * can use docblocks to ensure the return value.
      * @return array
@@ -12,7 +12,7 @@ interface LessonRepositoryInterface
     public function getAll();
 }
 
-class FileLessonRepository implements LessonRepositoryInterface 
+class FileLessonRepository implements LessonRepositoryInterface
 {
     public function getAll()
     {
@@ -21,7 +21,7 @@ class FileLessonRepository implements LessonRepositoryInterface
     }
 }
 
-class DBLessonRepository implements LessonRepositoryInterface 
+class DBLessonRepository implements LessonRepositoryInterface
 {
     public function getAll()
     {

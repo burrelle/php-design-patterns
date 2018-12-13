@@ -7,5 +7,4 @@ class VeggieSub extends Sub
         var_dump('adding the veggies');
         return $this;
     }
-
 }

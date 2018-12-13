@@ -21,7 +21,7 @@ class Human implements ManageableInterface, SleepableInterface, WorkableInterfac
     {
         $this->work();
         $this->sleep();
-    }   
+    }
 
     public function work()
     {
@@ -47,7 +47,7 @@ class Andriod implements ManagableInterface, WorkableInterface
     }
 }
 
-class Captain 
+class Captain
 {
     public function manage(ManagableInterface $worker)
     {

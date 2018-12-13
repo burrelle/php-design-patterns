@@ -1,7 +1,7 @@
 <?php namespace Acme;
 
-interface eReaderInterface 
+interface eReaderInterface
 {
-	public function turnOn();
-	public function pressNextButton();
+    public function turnOn();
+    public function pressNextButton();
 }
